@@ -11,12 +11,12 @@ import lombok.Data;
 @Entity
 @Table(name = "UserDTO")
 public class UserDTO {
-	
+
 	@Id
-	@Column(name="ID")
+	@Column(name = "ID")
 	private String id;
-	
-	@Column(name="emailId")
+
+	@Column(name = "emailId", updatable = true)
 	private String emailId;
 
 }
