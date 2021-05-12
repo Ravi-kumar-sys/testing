@@ -10,7 +10,7 @@ import lombok.Data;
 @Data
 @Entity
 @Table(name = "UserDTO")
-public class UserDTO {
+public class UserBean {
 
 	@Id
 	@Column(name = "ID")
