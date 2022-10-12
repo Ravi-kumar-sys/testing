@@ -1,8 +1,12 @@
 package com.demo.testing.service;
 
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.stereotype.Service;
 
-@RestController
+@Service
 public class TestSample {
+
+	public String testSample(String value) {
+		return value + "42";
+	}
 
 }
